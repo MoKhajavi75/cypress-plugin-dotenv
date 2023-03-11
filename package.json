@@ -1,0 +1,52 @@
+{
+  "name": "cypress-plugin-dotenv",
+  "description": "Load .env variables in Cypress",
+  "author": "MohamadKh75",
+  "license": "MIT",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cypress open",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "lint": "eslint . --config .eslintrc.json --cache",
+    "ts-check": "tsc --noEmit",
+    "prettier": "prettier -c . --config .prettierrc.json",
+    "format": "prettier -w . --config .prettierrc.json",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MohamadKh75/cypress-plugin-dotenv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MohamadKh75/cypress-plugin-dotenv/issues"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "cypress": "^12.17.3",
+    "eslint": "^8.47.0",
+    "husky": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "cypress": ">=10"
+  },
+  "keywords": [
+    "cypress",
+    "cypress plugin",
+    "cypress dotenv",
+    "cypress environment variables",
+    "env variables",
+    "environment variables"
+  ]
+}
