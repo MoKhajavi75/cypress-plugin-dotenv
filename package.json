@@ -3,7 +3,7 @@
   "description": "Load .env variables in Cypress",
   "author": "MohamadKh75",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
