@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "allowJs": false,
-    "outDir": "lib",
     "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
     "skipLibCheck": true,
     "types": ["cypress"]
   },
