@@ -4,6 +4,9 @@
   "author": "MohamadKh75",
   "license": "MIT",
   "version": "1.0.0",
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
