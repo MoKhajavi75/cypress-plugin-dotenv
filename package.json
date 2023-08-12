@@ -4,9 +4,11 @@
   "author": "MohamadKh75",
   "license": "MIT",
   "version": "1.0.1",
+  "main": "lib/index.js",
   "files": [
-    "src/"
+    "lib"
   ],
+  "typings": "lib/index.d.ts",
   "scripts": {
     "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
