@@ -44,6 +44,10 @@ export default defineConfig({
 });
 ```
 
+## 📐 Example
+
+Take a look at [cypress folder](./cypress/)
+
 ## License
 
 This project is licensed under the terms of the [MIT license](/LICENSE.md).
