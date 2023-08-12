@@ -5,7 +5,7 @@
   "license": "MIT",
   "version": "0.0.0",
   "scripts": {
-    "dev": "cypress open",
+    "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
     "build": "tsc",
     "release": "pnpm clean && pnpm build && release-it",
@@ -50,5 +50,8 @@
     "cypress environment variables",
     "env variables",
     "environment variables"
-  ]
+  ],
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
