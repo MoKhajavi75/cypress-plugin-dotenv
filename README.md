@@ -10,19 +10,19 @@
 
 - npm:
 
-```bash
+```shell
 npm install cypress-plugin-dotenv
 ```
 
 - yarn:
 
-```bash
+```shell
 yarn add cypress-plugin-dotenv
 ```
 
 - pnpm:
 
-```
+```shell
 pnpm add cypress-plugin-dotenv
 ```
 
