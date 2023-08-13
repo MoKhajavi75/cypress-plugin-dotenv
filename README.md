@@ -44,6 +44,22 @@ export default defineConfig({
 });
 ```
 
+## 🔧 Dynamic Types
+
+Automate TypeScript definitions for `.env` with:
+
+```js
+import { generateEnvTypes } from 'cypress-plugin-dotenv';
+
+on('before:browser:launch', (browser, launchOptions) => {
+  generateEnvTypes(dotenvConfig);
+
+  // your code
+});
+```
+
+**⚠️ Important**: Run Cypress once after setup to initialize the types.
+
 ## 📐 Example
 
 Take a look at [cypress folder](./cypress/)

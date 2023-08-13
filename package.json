@@ -8,7 +8,7 @@
   "files": [
     "lib"
   ],
-  "typings": "lib/index.d.ts",
+  "typings": "lib/",
   "scripts": {
     "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
