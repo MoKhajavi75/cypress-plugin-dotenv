@@ -52,7 +52,7 @@ Automate TypeScript definitions for `.env` with:
 import { generateEnvTypes } from 'cypress-plugin-dotenv';
 
 on('before:browser:launch', (browser, launchOptions) => {
-  generateEnvTypes(dotenvConfig);
+  generateEnvTypes(outputPath, options);
 
   // your code
 });
