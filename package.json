@@ -3,7 +3,7 @@
   "description": "Load .env variables in Cypress",
   "author": "MohamadKh75",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "lib/index.js",
   "files": [
     "lib"
