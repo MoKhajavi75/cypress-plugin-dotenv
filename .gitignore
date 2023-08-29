@@ -24,3 +24,8 @@ typings/
 
 # Build
 /lib
+
+# Cypress
+cypress/downloads
+cypress/screenshots
+cypress/videos
