@@ -2,7 +2,7 @@
 
 # cypress-plugin-dotenv
 
-[![npm version](https://badge.fury.io/js/cypress-plugin-dotenv.svg)](https://badge.fury.io/js/cypress-plugin-dotenv) &nbsp; [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
+[![npm version](https://badge.fury.io/js/cypress-plugin-dotenv.svg)](https://badge.fury.io/js/cypress-plugin-dotenv) &nbsp; [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/) &nbsp; [![tests](https://github.com/MohamadKh75/cypress-plugin-dotenv/actions/workflows/main.yml/badge.svg)](https://github.com/MohamadKh75/cypress-plugin-dotenv/actions/workflows/main.yml)
 
 </div>
 

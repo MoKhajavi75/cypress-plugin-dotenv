@@ -11,6 +11,7 @@
   "typings": "lib/",
   "scripts": {
     "dev": "cypress open -C cypress/config.ts -b chrome --e2e",
+    "test": "cypress run -C cypress/config.ts -b chrome --e2e",
     "clean": "rimraf lib",
     "build": "tsc",
     "release": "pnpm clean && pnpm build && release-it",

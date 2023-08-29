@@ -2,7 +2,7 @@ import { defineConfig } from 'cypress';
 import path from 'path';
 import { dotenv, generateEnvTypes } from '../src';
 
-const ROOT = process.env.PWD;
+const ROOT = process.env.CI ? '..' : process.env.PWD;
 
 export default defineConfig({
   e2e: {
@@ -15,7 +15,8 @@ export default defineConfig({
         return launchOptions;
       });
 
-      return dotenv(config, { path: path.join(ROOT, '.env') });
+      // NOTE: passed `isCI` false intentionally.
+      return dotenv(config, { path: path.join(ROOT, '.env') }, false);
     }
   }
 });
